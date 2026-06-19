@@ -104,4 +104,5 @@ def leer_lineas():
     print('(r9) - Mayor importe pagado por ese paciente):', r9) 
     print('(r10)- Porcentaje de tratamientos de alta complejidad con coste mayor al promedio:', r10)
 
-leer_lineas()
+if __name__ == "__main__":
+    leer_lineas()
